@@ -2,3 +2,11 @@
   width: 90%;
   margin: 0 auto;
 }
+
+input[type="text"]:focus:not([readonly]) + label {
+  color: #00aeef;
+  top: -28px;
+  left: 6px;
+  font-size: 12px;
+  transition: all 0.5s ease-in-out;
+}

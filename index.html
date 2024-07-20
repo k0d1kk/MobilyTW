@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="media-query.css" />
   </head>
-  <body>
+  <body class="overflow-x-hidden w-full">
     <section class="top-chart w-full py-4 bg-main">
       <div class="container">
         <div class="top-chart__wrapper w-full flex justify-between items-center text-center">
@@ -88,7 +88,7 @@
       <div class="container">
         <div class="header__wrapper w-full flex justify-between items-center text-center">
           <img src="content/mobily_logo_white.png" alt="" class="w-[60px] h-[80px] object-contain" />
-          <div class="header__links flex items-center gap-4 text-nowrap text-[13px] text-white">
+          <div class="header__links flex items-center gap-4 text-nowrap text-[17px] text-white font-thin">
             <a href="">MOBILE PACKAGES</a>
             <a href="">DATA PACKAGES</a>
             <a href="">FIBER PACKAGES</a>
@@ -98,5 +98,30 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="content py-[50px]">
+        <div class="container">
+          <div class="content__wrapper w-full flex flex-col justify-center items-start">
+            <h1 class="text-[2.75rem] font-regular opacity-80 tracking-[6px] leading-[120%] mb-[60px]">
+              Bill Payment / Recharge
+            </h1>
+            <div class="w-96 relative">
+              <input
+                type="text"
+                name="phoneNumber"
+                id="phoneNumber"
+                class="input__form block w-full border-0 border-b-2 py-1.5 text-gray-900 placeholder:text-gray-400 focus:outline-0 px-1.5 focus:border-b-[#00aeef]"
+              />
+              <label
+                for="phoneNumber"
+                class="label__form block text-sm font-regular leading-6 text-gray-900 absolute -top-6"
+              >
+                Enter Your Mobile Number
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
