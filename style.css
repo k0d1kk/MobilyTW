@@ -1,4 +1,16 @@
-.container {
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container__custom {
   width: 90%;
   margin: 0 auto;
 }
